@@ -1,0 +1,22 @@
+body{
+    background-color: aqua;
+}
+h4{
+    background-color: blue;
+}
+.title{
+    background-color: antiquewhite;
+    font-size: 30px;
+    color: brown;
+}
+.sub{
+    font-size: 20px;
+}
+#principal{
+    font-style: italic;
+    color: blue;
+}
+.logo{
+    width:200px;
+    height:200px;
+}
