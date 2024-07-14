@@ -6,7 +6,7 @@ h4{
 }
 .title{
     background-color: antiquewhite;
-    font-size: 30px;
+    font-size: 3em;
     color: brown;
 }
 .sub{
@@ -15,8 +15,32 @@ h4{
 #principal{
     font-style: italic;
     color: blue;
+    font-size: 4em;
 }
 .logo{
     width:200px;
     height:200px;
+}
+* {
+    margin: 20px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+#titles{
+    border: 2px solid black;
+    width: 50vw;
+    /*vw=viewport width= porcentaje de la pantalla donde esté*/
+    margin: 25%;
+    padding: 3em;
+}
+.cards{
+    border: 2px solid black;
+    width: 20em;
+    padding: 0px 1em 0px 1em;
+    border-radius: 15%;
+}
+.cards:hover{
+    background-color: salmon;
+    transition: 1s;
 }
