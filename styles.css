@@ -8,6 +8,8 @@ h4{
     background-color: antiquewhite;
     font-size: 3em;
     color: brown;
+    display: flex;
+    flex-direction: column;
 }
 .sub{
     font-size: 20px;
@@ -37,10 +39,26 @@ h4{
 .cards{
     border: 2px solid black;
     width: 20em;
-    padding: 0px 1em 0px 1em;
+    padding: 1em 1em 2em 1em;
     border-radius: 15%;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
 }
 .cards:hover{
     background-color: salmon;
     transition: 1s;
+}
+#cards_container{
+    background-color: aquamarine;
+    width: 85%;
+    margin: auto;
+    margin-top: 2em;
+    border: 1em solid rgb(113, 99, 99);
+    border-radius: 5%;
+    padding: 1em;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
 }
