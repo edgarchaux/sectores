@@ -1,64 +1,64 @@
-body{
-    background-color: aqua;
+body{/*Contiene el header, main y footer*/
+    background-color: aqua;/*color de fondo del body*/
 }
-h4{
-    background-color: blue;
+h4{/*Llama a todos los títulos h4*/
+    background-color: red;/*color de fondo de los títulos h4*/
 }
-.title{
-    background-color: antiquewhite;
-    font-size: 3em;
-    color: brown;
-    display: flex;
-    flex-direction: column;
+.title{/*Llama al title de la línea 19*/
+    background-color: antiquewhite;/*color de fondo del título de la línea 19*/
+    font-size: 3em;/*tamaño del título de la línea 19*/
+    color: brown;/*color de la fuente del título de la línea 19*/
+    display: flex;/*activa las propiedades que da display:flex*/
+    flex-direction: column;/*alinea los ítems verticalmente*/
 }
-.sub{
-    font-size: 20px;
+.sub{/*Llama al párrafo de la línea 20*/
+    font-size: 20px;/*tamaño de la fuente de la línea 20*/
 }
-#principal{
-    font-style: italic;
-    color: blue;
-    font-size: 4em;
+#principal{/*Llama al título de la línea 13*/
+    font-style: italic;/*letra itálica del título de la línea 13*/
+    color: blue;/*color azul a la letra del título de la línea 13*/
+    font-size: 4em;/*tamaño de la letra del título de la línea 13*/
 }
-.logo{
-    width:200px;
-    height:200px;
+.logo{/*Llama a las imágenes de los div container cards*/
+    width:200px;/*ancho de 200px de las imágenes*/
+    height:200px;/*alto de 200px de las imágenes*/
 }
-* {
-    margin: 20px;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
+* {/*Propiedades comunes a todos los elementos del documento*/
+    margin: 20px;/*margen de 20px de todos los elementos*/
+    padding: 0;/*0 de espaciado en todos los elementos*/
+    box-sizing: border-box;/*el ancho de cada contenedor incluye los elementos que tiene*/
+    font-family: Arial, sans-serif;/*fuente de letra arial*/
 }
-#titles{
-    border: 2px solid black;
-    width: 50vw;
+#titles{/*div container de la línea 12*/
+    border: 2px solid black;/*borde de 2px para el container de color negro*/
+    width: 50vw;/*ancho de 50 vw*/
     /*vw=viewport width= porcentaje de la pantalla donde esté*/
-    margin: 25%;
-    padding: 3em;
+    margin: 25%;/*margen del 25% en todos los lados*/
+    padding: 3em;/*espaciado de 3em, la medida em es relativa*/
 }
-.cards{
-    border: 2px solid black;
-    width: 20em;
-    padding: 1em 1em 2em 1em;
-    border-radius: 15%;
-    display: flex;
-    flex-direction: column;
-    gap: 1em;
-    align-items: center;
+.cards{/*Llama a los 3 contenedores de la clase cards*/
+    border: 2px solid black;/*borde sólido de 2px de color negro, px es una medida absoluta*/
+    width: 20em;/*ancho de 20em de cada contenedor*/
+    padding: 1em 1em 2em 1em;/*1em arriba, 1em derecha, 2em abajo, 1em izquierda de espaciado*/
+    border-radius: 15%;/*bordea las esquinas de cada contenedor*/
+    display: flex;/*permite usar las propiedades de display:flex*/
+    flex-direction: column;/*alinea verticalmente los ítems*/
+    gap: 1em;/*espaciado de 1em entre elementos*/
+    align-items: center;/*centra los elementos del div container cards*/
 }
-.cards:hover{
-    background-color: salmon;
-    transition: 1s;
+.cards:hover{/*Interacción del puntero cuando pasa por encima del div container cards*/
+    background-color: salmon;/*color del fondo del div container cuando el puntero pasa por encima*/
+    transition: 1s;/*duración de la transición*/
 }
-#cards_container{
-    background-color: aquamarine;
-    width: 85%;
-    margin: auto;
-    margin-top: 2em;
-    border: 1em solid rgb(113, 99, 99);
-    border-radius: 5%;
-    padding: 1em;
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-evenly;
+#cards_container{/*Div container de la línea 24, tiene 3 div container cards*/
+    background-color: aquamarine;/*color del div container cards_container*/
+    width: 85%;/*ancho del div container con respecto al contenedor padre*/
+    margin: auto;/*centra horizontalmente y verticalmente por default*/
+    margin-top: 2em;/*margen superior de 2em*/
+    border: 1em solid rgb(113, 99, 99);/*borde de 1em alrrededor del div contenedor cards_container*/
+    border-radius: 5%;/*redondea las esquinas*/
+    padding: 1em;/*espaciado de 1em en todos los lados*/
+    display: flex;/*permite usar las propiedades de display: flex*/
+    flex-direction: row-reverse;/*ordena de último al primero los ítems*/
+    justify-content: space-evenly;/*separa los ítems*/
 }
