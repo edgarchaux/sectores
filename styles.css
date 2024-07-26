@@ -1,8 +1,10 @@
 body{/*Contiene el header, main y footer*/
     background-color: aqua;/*color de fondo del body*/
+    size: 22px;
 }
 h4{/*Llama a todos los títulos h4*/
     background-color: red;/*color de fondo de los títulos h4*/
+    text-size-adjust: auto;
 }
 .title{/*Llama al title de la línea 19*/
     background-color: antiquewhite;/*color de fondo del título de la línea 19*/
